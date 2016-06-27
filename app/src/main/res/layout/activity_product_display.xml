@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header aligned to top -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="false"
+        android:id="@+id/center"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ListView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewDestinataire"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:divider="#FFFFFF"
+            android:dividerHeight="1px"/>
+    </RelativeLayout>
+
+</RelativeLayout>
